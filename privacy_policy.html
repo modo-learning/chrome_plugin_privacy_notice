@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modo AI Coach — Privacy Policy</title>
+  <style>
+    body {
+      max-width: 680px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 24px; margin-bottom: 8px; }
+    p, ul { margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    .updated { color: #6b7280; font-size: 14px; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <h1>Modo AI Coach — Privacy Policy</h1>
+  <p class="updated">Last updated: March 4, 2026</p>
+
+  <h2>What Data We Collect</h2>
+  <p>Modo AI Coach records the following user interactions only while a capture session is actively running:</p>
+  <ul>
+    <li>Click targets (element selectors and visible labels)</li>
+    <li>Text typed into non-sensitive form fields</li>
+    <li>Page navigations (URLs and page titles)</li>
+  </ul>
+  <p>Sensitive inputs — including passwords, credit card numbers, security codes, and expiration dates — are never captured.</p>
+
+  <h2>How Data Is Stored</h2>
+  <p>All captured data is stored locally on your device using Chrome's built-in <code>chrome.storage.local</code> API. No data is transmitted to any external server, cloud service, or third party.</p>
+
+  <h2>Data Sharing</h2>
+  <p>Modo AI Coach does not share, sell, or transmit any user data. All data remains entirely on your device.</p>
+
+  <h2>User Controls</h2>
+  <ul>
+    <li><strong>Start/Stop:</strong> Recording only occurs when you explicitly start a capture session.</li>
+    <li><strong>Site filtering:</strong> You can restrict recording to specific websites using the Tracked Sites settings.</li>
+    <li><strong>Delete:</strong> You can delete any individual capture or all captures at any time from the extension popup.</li>
+    <li><strong>Export:</strong> You can export captures as local Markdown files for your own use.</li>
+    <li><strong>Uninstall:</strong> Removing the extension deletes all stored data.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>activeTab:</strong> Used to communicate with the current tab for recording interactions.</li>
+    <li><strong>storage:</strong> Used to save captures locally on your device.</li>
+    <li><strong>Content script on all URLs:</strong> Required so the extension can detect user interactions (clicks, typing, navigation) on any website you choose to record. The content script is inert on sites that are not being tracked, and recording is always user-initiated.</li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we make changes to this privacy policy, the updated version will be included with the extension update and the "Last updated" date will be revised.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this privacy policy, contact us at privacy@modo.ai.</p>
+</body>
+</html>
